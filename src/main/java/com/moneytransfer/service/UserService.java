@@ -26,12 +26,10 @@ import org.apache.log4j.Logger;
 @Path("/user")
 @Produces(MediaType.APPLICATION_JSON)
 public class UserService {
+  private static final Logger log = Logger.getLogger(UserService.class);
+  private static final Pattern emailPattern = Pattern.compile("(?=.{1,250}$)(.+)@(.+){2,}\\.(.+){2,}");
 
   private final DAOFactory daoFactory = DAOFactory.getDAOFactory(DAOFactory.H2);
-
-  private static Logger log = Logger.getLogger(UserService.class);
-
-  private List<User> allUsers = new ArrayList<>();
 
   /**
    * Find by userName
@@ -62,7 +60,6 @@ public class UserService {
   @Path("/all")
   public Response getAllUsers() throws CustomException {
     List<User> users = daoFactory.getUserDAO().getAllUsers();
-    allUsers.addAll(users);
     return Response.ok("[" + users.stream().map(User::toString).collect(Collectors.joining(",")) + "]").build();
   }
 
@@ -76,7 +73,7 @@ public class UserService {
   @POST
   @Path("/create")
   public User createUser(User user) throws CustomException {
-    Matcher matcher = Pattern.compile("(?=.{1,250}$)(.+)@(.+){2,}\\.(.+){2,}").matcher(user.getEmailAddress());
+    Matcher matcher = emailPattern.matcher(user.getEmailAddress());
     if (!matcher.find()) {
       throw new WebApplicationException("User email is in wrong pattern", Response.Status.BAD_REQUEST);
     }
