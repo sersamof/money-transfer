@@ -50,12 +50,12 @@ esac
 $java_cmd $flags -jar target/money-transfer-1.0.0-SNAPSHOT-shaded.jar & #1>/dev/null 2>&1 &
 pid=$!
 sleep 2
-python3 run_tests.py &
+python3 run_tests.py > $jmx_log_output_dit/$1_stat &
 test_pid=$!
 sleep 40
 
-printf "open $pid\n${jmx_young}\n${jmx_old}\n${jxm_mem}\n" | java -jar /Users/sergey/Downloads/jmxterm.jar -n -o $jmx_log_output_dit/$log_file
-kill -9 $test_pid
+printf "open $pid\n${jmx_young}\n${jmx_old}\n${jxm_mem}\n" | java -jar /Users/sergey/Downloads/jmxterm.jar -n -o $jmx_log_output_dit/$1
+kill -15 $test_pid
 sleep 2
-kill -9 $pid
+kill -15 $pid
 
