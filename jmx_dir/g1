@@ -1,0 +1,166 @@
+LastGcInfo = { 
+  GcThreadCount = 10;
+  duration = 9;
+  endTime = 126732;
+  id = 63;
+  memoryUsageAfterGc = { 
+    ( G1 Survivor Space ) = { 
+      key = G1 Survivor Space;
+      value = { 
+        committed = 2097152;
+        init = 0;
+        max = -1;
+        used = 2097152;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 3063808;
+        init = 0;
+        max = 1073741824;
+        used = 2979512;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 27967488;
+        init = 0;
+        max = -1;
+        used = 27541720;
+       };
+     };
+    ( G1 Old Gen ) = { 
+      key = G1 Old Gen;
+      value = { 
+        committed = 50331648;
+        init = 118489088;
+        max = 2147483648;
+        used = 15861952;
+       };
+     };
+    ( G1 Eden Space ) = { 
+      key = G1 Eden Space;
+      value = { 
+        committed = 81788928;
+        init = 15728640;
+        max = -1;
+        used = 0;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 19988480;
+        init = 2555904;
+        max = 251658240;
+        used = 17331520;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( G1 Survivor Space ) = { 
+      key = G1 Survivor Space;
+      value = { 
+        committed = 2097152;
+        init = 0;
+        max = -1;
+        used = 2097152;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 3063808;
+        init = 0;
+        max = 1073741824;
+        used = 2979512;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 27967488;
+        init = 0;
+        max = -1;
+        used = 27541720;
+       };
+     };
+    ( G1 Old Gen ) = { 
+      key = G1 Old Gen;
+      value = { 
+        committed = 50331648;
+        init = 118489088;
+        max = 2147483648;
+        used = 15071176;
+       };
+     };
+    ( G1 Eden Space ) = { 
+      key = G1 Eden Space;
+      value = { 
+        committed = 81788928;
+        init = 15728640;
+        max = -1;
+        used = 77594624;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 19988480;
+        init = 2555904;
+        max = 251658240;
+        used = 17331520;
+       };
+     };
+   };
+  startTime = 126723;
+ };
+
+CollectionCount = 63;
+
+CollectionTime = 274;
+
+Name = G1 Young Generation;
+
+Valid = true;
+
+MemoryPoolNames = [ G1 Eden Space, G1 Survivor Space ];
+
+ObjectName = java.lang:type=GarbageCollector,name=G1 Young Generation;
+
+LastGcInfo = null;
+
+CollectionCount = 0;
+
+CollectionTime = 0;
+
+Name = G1 Old Generation;
+
+Valid = true;
+
+MemoryPoolNames = [ G1 Eden Space, G1 Survivor Space, G1 Old Gen ];
+
+ObjectName = java.lang:type=GarbageCollector,name=G1 Old Generation;
+
+ObjectPendingFinalizationCount = 0;
+
+HeapMemoryUsage = { 
+  committed = 134217728;
+  init = 134217728;
+  max = 2147483648;
+  used = 37882048;
+ };
+
+NonHeapMemoryUsage = { 
+  committed = 52068352;
+  init = 2555904;
+  max = -1;
+  used = 48754016;
+ };
+
+Verbose = false;
+
+ObjectName = java.lang:type=Memory;
+

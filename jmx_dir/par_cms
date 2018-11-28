@@ -1,0 +1,152 @@
+LastGcInfo = { 
+  GcThreadCount = 5;
+  duration = 47;
+  endTime = 2805;
+  id = 1;
+  memoryUsageAfterGc = { 
+    ( Par Survivor Space ) = { 
+      key = Par Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 34865152;
+        used = 4456440;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2748416;
+        init = 0;
+        max = 1073741824;
+        used = 2659560;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 22827008;
+        init = 0;
+        max = -1;
+        used = 22520248;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 5046272;
+        init = 2555904;
+        max = 251658240;
+        used = 5015040;
+       };
+     };
+    ( Par Eden Space ) = { 
+      key = Par Eden Space;
+      value = { 
+        committed = 35782656;
+        init = 35782656;
+        max = 279183360;
+        used = 1371592;
+       };
+     };
+    ( CMS Old Gen ) = { 
+      key = CMS Old Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1798569984;
+        used = 7664352;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( Par Survivor Space ) = { 
+      key = Par Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 34865152;
+        used = 4456440;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2748416;
+        init = 0;
+        max = 1073741824;
+        used = 2621696;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 22749184;
+        init = 0;
+        max = -1;
+        used = 22185392;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 4980736;
+        init = 2555904;
+        max = 251658240;
+        used = 4913728;
+       };
+     };
+    ( Par Eden Space ) = { 
+      key = Par Eden Space;
+      value = { 
+        committed = 35782656;
+        init = 35782656;
+        max = 279183360;
+        used = 7184;
+       };
+     };
+    ( CMS Old Gen ) = { 
+      key = CMS Old Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1798569984;
+        used = 11708984;
+       };
+     };
+   };
+  startTime = 2758;
+ };
+
+CollectionCount = 1;
+
+CollectionTime = 9;
+
+Name = ConcurrentMarkSweep;
+
+Valid = true;
+
+MemoryPoolNames = [ Par Eden Space, Par Survivor Space, CMS Old Gen ];
+
+ObjectName = java.lang:type=GarbageCollector,name=ConcurrentMarkSweep;
+
+Verbose = false;
+
+ObjectPendingFinalizationCount = 0;
+
+HeapMemoryUsage = { 
+  committed = 129761280;
+  init = 134217728;
+  max = 2112618496;
+  used = 30381040;
+ };
+
+NonHeapMemoryUsage = { 
+  committed = 51503104;
+  init = 2555904;
+  max = -1;
+  used = 48107568;
+ };
+
+ObjectName = java.lang:type=Memory;
+

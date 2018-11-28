@@ -1,0 +1,284 @@
+LastGcInfo = { 
+  GcThreadCount = 4;
+  duration = 31;
+  endTime = 2831;
+  id = 1;
+  memoryUsageAfterGc = { 
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2670592;
+        init = 0;
+        max = 1073741824;
+        used = 2537336;
+       };
+     };
+    ( PS Survivor Space ) = { 
+      key = PS Survivor Space;
+      value = { 
+        committed = 5242880;
+        init = 5242880;
+        max = 5242880;
+        used = 0;
+       };
+     };
+    ( PS Old Gen ) = { 
+      key = PS Old Gen;
+      value = { 
+        committed = 49807360;
+        init = 89653248;
+        max = 1431830528;
+        used = 5790720;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 21807104;
+        init = 0;
+        max = -1;
+        used = 21483136;
+       };
+     };
+    ( PS Eden Space ) = { 
+      key = PS Eden Space;
+      value = { 
+        committed = 34078720;
+        init = 34078720;
+        max = 705167360;
+        used = 0;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 4915200;
+        init = 2555904;
+        max = 251658240;
+        used = 4845504;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2670592;
+        init = 0;
+        max = 1073741824;
+        used = 2537336;
+       };
+     };
+    ( PS Survivor Space ) = { 
+      key = PS Survivor Space;
+      value = { 
+        committed = 5242880;
+        init = 5242880;
+        max = 5242880;
+        used = 5210208;
+       };
+     };
+    ( PS Old Gen ) = { 
+      key = PS Old Gen;
+      value = { 
+        committed = 89653248;
+        init = 89653248;
+        max = 1431830528;
+        used = 8744800;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 21807104;
+        init = 0;
+        max = -1;
+        used = 21483136;
+       };
+     };
+    ( PS Eden Space ) = { 
+      key = PS Eden Space;
+      value = { 
+        committed = 34078720;
+        init = 34078720;
+        max = 705167360;
+        used = 0;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 4915200;
+        init = 2555904;
+        max = 251658240;
+        used = 4845504;
+       };
+     };
+   };
+  startTime = 2800;
+ };
+
+CollectionCount = 1;
+
+CollectionTime = 31;
+
+Name = PS MarkSweep;
+
+Valid = true;
+
+MemoryPoolNames = [ PS Eden Space, PS Survivor Space, PS Old Gen ];
+
+ObjectName = java.lang:type=GarbageCollector,name=PS MarkSweep;
+
+LastGcInfo = { 
+  GcThreadCount = 4;
+  duration = 3;
+  endTime = 124306;
+  id = 20;
+  memoryUsageAfterGc = { 
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2932736;
+        init = 0;
+        max = 1073741824;
+        used = 2744040;
+       };
+     };
+    ( PS Survivor Space ) = { 
+      key = PS Survivor Space;
+      value = { 
+        committed = 3145728;
+        init = 5242880;
+        max = 3145728;
+        used = 2686976;
+       };
+     };
+    ( PS Old Gen ) = { 
+      key = PS Old Gen;
+      value = { 
+        committed = 49807360;
+        init = 89653248;
+        max = 1431830528;
+        used = 7260208;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 26263552;
+        init = 0;
+        max = -1;
+        used = 25762368;
+       };
+     };
+    ( PS Eden Space ) = { 
+      key = PS Eden Space;
+      value = { 
+        committed = 316145664;
+        init = 34078720;
+        max = 705691648;
+        used = 0;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 20185088;
+        init = 2555904;
+        max = 251658240;
+        used = 16803200;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2932736;
+        init = 0;
+        max = 1073741824;
+        used = 2744040;
+       };
+     };
+    ( PS Survivor Space ) = { 
+      key = PS Survivor Space;
+      value = { 
+        committed = 2621440;
+        init = 5242880;
+        max = 2621440;
+        used = 2424832;
+       };
+     };
+    ( PS Old Gen ) = { 
+      key = PS Old Gen;
+      value = { 
+        committed = 49807360;
+        init = 89653248;
+        max = 1431830528;
+        used = 7260208;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 26263552;
+        init = 0;
+        max = -1;
+        used = 25762368;
+       };
+     };
+    ( PS Eden Space ) = { 
+      key = PS Eden Space;
+      value = { 
+        committed = 330825728;
+        init = 34078720;
+        max = 705691648;
+        used = 330825728;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 20185088;
+        init = 2555904;
+        max = 251658240;
+        used = 16803200;
+       };
+     };
+   };
+  startTime = 124303;
+ };
+
+CollectionCount = 20;
+
+CollectionTime = 87;
+
+Name = PS Scavenge;
+
+Valid = true;
+
+MemoryPoolNames = [ PS Eden Space, PS Survivor Space ];
+
+ObjectName = java.lang:type=GarbageCollector,name=PS Scavenge;
+
+Verbose = false;
+
+ObjectPendingFinalizationCount = 0;
+
+HeapMemoryUsage = { 
+  committed = 369098752;
+  init = 134217728;
+  max = 1908932608;
+  used = 116164864;
+ };
+
+NonHeapMemoryUsage = { 
+  committed = 52264960;
+  init = 2555904;
+  max = -1;
+  used = 48391976;
+ };
+
+ObjectName = java.lang:type=Memory;
+

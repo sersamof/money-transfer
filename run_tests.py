@@ -18,10 +18,11 @@ def profile(fn):
         elapsed_time = time.time() - start_time
 
         if fn.__name__ not in PROF_DATA:
-            PROF_DATA[fn.__name__] = [0, {'last': 0.0, 'avg': 0.0, 'all': []}]
+            PROF_DATA[fn.__name__] = [0, {'last': 0.0, 'avg': 0.0, 'max': 0.0, 'all': []}]
         PROF_DATA[fn.__name__][0] += 1
         PROF_DATA[fn.__name__][1]['last'] = elapsed_time
         PROF_DATA[fn.__name__][1]['avg'] = ((PROF_DATA[fn.__name__][0]-1)*PROF_DATA[fn.__name__][1]['avg'] + elapsed_time) / PROF_DATA[fn.__name__][0]
+        PROF_DATA[fn.__name__][1]['max'] = 0 if PROF_DATA[fn.__name__][0] < 50 else max(PROF_DATA[fn.__name__][1]['max'], elapsed_time)
         PROF_DATA[fn.__name__][1]['all'].append(elapsed_time)
 
         return ret
@@ -39,6 +40,7 @@ def collect_stat():
         res[fname] = {
             'count': data[0],
             'avg': data[1]['avg'],
+            'max': data[1]['max'],
             'q95': sorted(data[1]['all'])[len(data[1]['all']) * 95 // 100]
         }
     return res

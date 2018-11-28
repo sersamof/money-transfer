@@ -1,0 +1,284 @@
+LastGcInfo = { 
+  GcThreadCount = 1;
+  duration = 33;
+  endTime = 2759;
+  id = 1;
+  memoryUsageAfterGc = { 
+    ( Survivor Space ) = { 
+      key = Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 71565312;
+        used = 0;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2670592;
+        init = 0;
+        max = 1073741824;
+        used = 2542272;
+       };
+     };
+    ( Eden Space ) = { 
+      key = Eden Space;
+      value = { 
+        committed = 35782656;
+        init = 35782656;
+        max = 572653568;
+        used = 0;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 21807104;
+        init = 0;
+        max = -1;
+        used = 21497416;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 4915200;
+        init = 2555904;
+        max = 251658240;
+        used = 4857792;
+       };
+     };
+    ( Tenured Gen ) = { 
+      key = Tenured Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1431699456;
+        used = 14263184;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( Survivor Space ) = { 
+      key = Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 71565312;
+        used = 4456440;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 2670592;
+        init = 0;
+        max = 1073741824;
+        used = 2542272;
+       };
+     };
+    ( Eden Space ) = { 
+      key = Eden Space;
+      value = { 
+        committed = 35782656;
+        init = 35782656;
+        max = 572653568;
+        used = 32859368;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 21807104;
+        init = 0;
+        max = -1;
+        used = 21497416;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 4915200;
+        init = 2555904;
+        max = 251658240;
+        used = 4857792;
+       };
+     };
+    ( Tenured Gen ) = { 
+      key = Tenured Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1431699456;
+        used = 4084648;
+       };
+     };
+   };
+  startTime = 2726;
+ };
+
+CollectionCount = 1;
+
+CollectionTime = 32;
+
+Name = MarkSweepCompact;
+
+Valid = true;
+
+MemoryPoolNames = [ Eden Space, Survivor Space, Tenured Gen ];
+
+ObjectName = java.lang:type=GarbageCollector,name=MarkSweepCompact;
+
+LastGcInfo = { 
+  GcThreadCount = 1;
+  duration = 5;
+  endTime = 126588;
+  id = 125;
+  memoryUsageAfterGc = { 
+    ( Survivor Space ) = { 
+      key = Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 71565312;
+        used = 1068648;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 3194880;
+        init = 0;
+        max = 1073741824;
+        used = 3017224;
+       };
+     };
+    ( Eden Space ) = { 
+      key = Eden Space;
+      value = { 
+        committed = 35913728;
+        init = 35782656;
+        max = 572653568;
+        used = 0;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 28360704;
+        init = 0;
+        max = -1;
+        used = 27781808;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 19333120;
+        init = 2555904;
+        max = 251658240;
+        used = 16403776;
+       };
+     };
+    ( Tenured Gen ) = { 
+      key = Tenured Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1431699456;
+        used = 17906528;
+       };
+     };
+   };
+  memoryUsageBeforeGc = { 
+    ( Survivor Space ) = { 
+      key = Survivor Space;
+      value = { 
+        committed = 4456448;
+        init = 4456448;
+        max = 71565312;
+        used = 469496;
+       };
+     };
+    ( Compressed Class Space ) = { 
+      key = Compressed Class Space;
+      value = { 
+        committed = 3194880;
+        init = 0;
+        max = 1073741824;
+        used = 3017224;
+       };
+     };
+    ( Eden Space ) = { 
+      key = Eden Space;
+      value = { 
+        committed = 35913728;
+        init = 35782656;
+        max = 572653568;
+        used = 35913728;
+       };
+     };
+    ( Metaspace ) = { 
+      key = Metaspace;
+      value = { 
+        committed = 28360704;
+        init = 0;
+        max = -1;
+        used = 27781808;
+       };
+     };
+    ( Code Cache ) = { 
+      key = Code Cache;
+      value = { 
+        committed = 19333120;
+        init = 2555904;
+        max = 251658240;
+        used = 16403776;
+       };
+     };
+    ( Tenured Gen ) = { 
+      key = Tenured Gen;
+      value = { 
+        committed = 89522176;
+        init = 89522176;
+        max = 1431699456;
+        used = 17879560;
+       };
+     };
+   };
+  startTime = 126583;
+ };
+
+CollectionCount = 125;
+
+CollectionTime = 402;
+
+Name = Copy;
+
+Valid = true;
+
+MemoryPoolNames = [ Eden Space, Survivor Space ];
+
+ObjectName = java.lang:type=GarbageCollector,name=Copy;
+
+ObjectPendingFinalizationCount = 0;
+
+HeapMemoryUsage = { 
+  committed = 129892352;
+  init = 134217728;
+  max = 2075918336;
+  used = 35937304;
+ };
+
+NonHeapMemoryUsage = { 
+  committed = 51412992;
+  init = 2555904;
+  max = -1;
+  used = 47989040;
+ };
+
+Verbose = false;
+
+ObjectName = java.lang:type=Memory;
+
