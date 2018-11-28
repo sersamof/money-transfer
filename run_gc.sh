@@ -54,7 +54,7 @@ python3 run_tests.py > $jmx_log_output_dit/$1_stat &
 test_pid=$!
 sleep 40
 
-printf "open $pid\n${jmx_young}\n${jmx_old}\n${jxm_mem}\n" | java -jar /Users/sergey/Downloads/jmxterm.jar -n -o $jmx_log_output_dit/$1
+printf "open $pid\n${jmx_young}\n${jmx_old}\n${jxm_mem}\n" | java -jar jmxterm.jar -n -o $jmx_log_output_dit/$1
 kill -15 $test_pid
 sleep 2
 kill -15 $pid
