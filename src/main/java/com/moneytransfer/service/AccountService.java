@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Consumes(MediaType.APPLICATION_JSON)
 public class AccountService {
 
-  private final DAOFactory daoFactory = DAOFactory.getDAOFactory(Utils.getStringProperty("dao_implementation"));
+  private final DAOFactory daoFactory = DAOFactory.getDAOFactory(Utils.getStringProperty("daoImplementation"));
 
   private static Logger log = Logger.getLogger(AccountService.class);
 

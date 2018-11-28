@@ -24,7 +24,7 @@ public class UserService {
   private static final Logger log = Logger.getLogger(UserService.class);
   private static final Pattern emailPattern = Pattern.compile("(?=.{1,250}$)(.+)@(.+){2,}\\.(.+){2,}");
 
-  private final DAOFactory daoFactory = DAOFactory.getDAOFactory(Utils.getStringProperty("dao_implementation"));
+  private final DAOFactory daoFactory = DAOFactory.getDAOFactory(Utils.getStringProperty("daoImplementation"));
 
   /**
    * Find by userName
